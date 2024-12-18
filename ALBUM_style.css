@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0;
+   overflow: hidden;
+    box-sizing: border-box;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: Poppins;
+    color: white;
+   
+   
+   
+}
+body{
+    background-color: black;
+}
+
+.container{
+    position: relative;
+}
+
+.header{
+    background: rgba(24, 23, 23, 0.3);
+    height: 6rem;
+    padding: 0 20px 0 80px;
+    margin: 0;
+    align-items: center;  
+    display: flex;   
+    justify-content: space-between; 
+    font-weight: 500;
+    letter-spacing: 1px;
+   
+ 
+}
+
+.home, .about, .gallery, .signout{
+    margin-right:55px;
+}
+a{
+    
+    text-decoration: none;
+  
+    
+} 
+a:hover{
+    color: #d41507;
+}
+i{
+    font-size: 18px;
+  
+}
+i:hover{
+    color: #d41507;
+}
+.header .name{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.header .name span{
+    color: #d41507;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0 0 25px #d41507;
+}
+
+
+
+.images{
+    width: 590%;
+    height: 1282px;
+    object-fit: cover;
+    margin-top: -230px;
+    display: flex;
+    animation: slide 16s infinite;
+}
+
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+   10%{
+        transform: translateX(0);
+    }
+    20%{
+        transform: translateX(-17%);
+    }
+    25%{
+        transform: translateX(-17%);
+    }
+    40%{
+        transform: translateX(-34%);
+    }
+    45%{
+        transform: translateX(-34%);
+    }
+
+}
+a{
+    margin-right: 15px;
+}
+
+.another_album{
+    margin-top: -480px;
+    position: absolute;
+    margin-left: 1350px;
+}
+
+.another_images img{
+    width: 150px;
+    height: 250px;
+    object-fit: cover;
+    border-radius:25px;
+    border: solid 1px #868686;
+  
+}
+.content{
+    margin-top: -1050px;
+    position: absolute;
+   padding: 160px;
+    text-align: center;
+    max-width:65%;
+    margin-left:50px;
+    
+}
+
+h2{
+    letter-spacing: 15px;
+    font-size:100px;
+    margin-top: 20px;
+    color: #d41507;
+    letter-spacing: 5px;
+    text-shadow: 0 0 15px #d41507;
+    margin-bottom: 20px;
+}
+
+#hiphop_page{
+    font-size:130px;
+    margin-top: -20px;
+}
+#CHEERDANCE_page{
+    font-size:120px;
+}
+
+
+h4{
+    font-size: 80px;
+    margin-top: -40px;
+    
+    color: #fa3a00;
+    letter-spacing:25px;
+    text-shadow: 0 0 10px #e43b08 ;
+    
+}
+
+.content .highlight,
+.content .date,
+.content .des{
+     transform: translateY(50px);
+     filter: blur(20px); 
+     opacity: 0; 
+     animation: showContent 0.5s 1s linear 1 forwards;
+}
+
+@keyframes showContent{
+    to{
+        opacity: 1;
+        filter: blur(0);
+        transform: translateY(0);  
+    }
+}
+.content .highlight{
+    animation-delay: 1.2s;
+}
+.content .date{
+    animation-delay: 1.4s;
+}
+.content .des{
+    animation-delay: 1.8s;
+}
+p{
+    text-shadow: 0 0 10px #d41507;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}

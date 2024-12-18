@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>LOGIN PAGE</title>
+       <link rel="stylesheet" href="LOGIN_STYLE.css">
+       <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    </head>
+    <body>
+        <div class="COVER">
+            <div class="CONTENT">
+               
+                <p class="TCGC">TANGUB CITY GLOBAL COLLEGE</p> 
+                <h1 ><span class="L">L</span>UX MUNDIS CU<span class="P"><sub>P</sub></span></h1>
+                <h2>2024</h2>
+                <p class="des">ENJOY!!!</p>
+            </div>
+            <div class="CONTAINER">
+                <h1>LOGIN</h1>
+                
+               <div class="FORM">
+                    <div class="enter">
+                        <input type="text" id="USER" required>
+                        <label for="">Email</label>
+                    
+                    </div>
+                    <div class="enter">
+                        <input type="password" id="PASS" required>
+                        <label for="">Password</label>
+                    </div>
+                   
+                    <button type="submit" onclick="auth()">Login</button>
+               </div>
+            </div>
+           
+            
+        </div>
+
+        <script>
+            function auth(){
+                var text=document.getElementById('USER').value;
+                var password=document.getElementById('PASS').value;
+            
+            if(text=='chenchen' && password=='Ch_3n0306')
+            {
+                window.location.assign("Homepage.html");
+                
+            }
+            else{
+                alert("Invalid");
+                return;
+            }
+            
+            }
+
+
+        </script>
+    </body>
+</html>

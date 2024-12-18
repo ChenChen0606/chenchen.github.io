@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0;
+  
+    box-sizing: border-box;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: Poppins;
+    color: white;
+}
+body{
+  
+    background-color: black;
+}
+
+.header{
+    background: rgba(24, 23, 23, 0.3);
+    height: 6rem;
+    padding: 0 20px 0 80px;
+    margin: 0;
+    align-items: center; 
+    display: flex;  
+    justify-content: space-between; 
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+a{
+    margin-right:55px;
+    text-decoration: none;
+}   
+a:hover{
+    color: #d41507;
+}
+i{
+    font-size: 18px;
+  
+}
+i:hover{
+    color: #d41507;
+}
+.header .name{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.header .name span{
+    color: #d41507;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0 0 25px #d41507;
+}
+.SSC_logo, .TCGC_logo{
+    border-radius:50%;
+    width: 130px;
+   
+}
+.logo{
+   margin-left: 1600px;
+   margin-top: 20px;
+   
+}
+.intro{
+    position: absolute;
+    display: flex;
+}
+
+.star{
+    width:300px;
+    margin-left:145px;
+    margin-top: 80px;
+}
+
+
+.bg_image{
+   margin-left: 80px;
+   margin-top: -250px;
+   width: 900px;
+}
+
+h2{
+    text-shadow: 0 0 10px white;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -20px;
+    letter-spacing: 20px;
+   
+    margin-left: 60px ;
+    
+}
+
+.content2{
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 12%;
+    
+   
+
+}
+.TCGC{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0 10px 15px #d41507;
+}
+.content2 h1{
+    font-size:80px;
+    margin-top: -50px;
+    text-shadow: 0 0 20px #fff;
+}
+
+.content2 .L{
+    font-size:150px;
+    font-style: italic;
+    font-family: serif;
+    color: #d41507;
+    text-shadow: 0 10px 15px #d41507;
+    
+    
+}
+.content2 .P{
+    font-size:140px;
+    font-family: serif;
+    color: #d41507;
+    
+    
+}
+h3{
+    font-size: 9rem;
+    margin-top: -60px;
+    text-shadow: 0 0 20px #d41507;
+    color: black;
+}
+.des{
+    max-width: 505px;
+    margin-left: 120px;
+    text-align: center;
+}
+.content2 .tcgc{
+    text-shadow: 0 0 15px #d41507;
+    color: red;
+}
