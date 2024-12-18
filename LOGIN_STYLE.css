@@ -157,7 +157,7 @@ button{
     .CONTAINER{
         margin-left: 8vw;
         margin-bottom: 5vw;
-        width: 180vw;
+        width: 80vw;
         
     }
     .enter{
@@ -168,5 +168,5 @@ button{
         margin-left: 46vw;
     }
     input{
-        width:50px;
+        width:250px;
   }
