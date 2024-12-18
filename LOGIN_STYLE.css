@@ -164,6 +164,9 @@ button{
         margin-bottom: 40px;
         margin-left: 8vw;
     }
+    input{
+        width:50vw;
+    }
     button{
         margin-left: 46vw;
     }
