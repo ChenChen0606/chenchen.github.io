@@ -144,3 +144,28 @@ button{
     font-size: 15px;
     
 }
+@media only screen and (max-width:500px) {
+    
+    body{
+        background-image: url(BG2.jpg);
+        background-repeat: no-repeat;
+    }
+    .CONTENT{
+        margin-left: 20vw;
+    }
+    .CONTAINER{
+        margin-left: 8vw;
+        margin-bottom: 5vw;
+        width: 80vw;
+        
+    }
+    .enter{
+        margin-bottom: 40px;
+        margin-left: 8vw;
+    }
+    button{
+        margin-left: 46vw;
+    }
+    input{
+        width:50px;
+  }
